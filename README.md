@@ -1,5 +1,5 @@
 In this challenge, we were supposed to make a daily planner in which a user will be able to update their planner and sort out their day.
-Some logic that was added to the JavaScript is to make the hour of the day that has passed to turn red. That will tell the user that this hour has passed and 
+Some logic that was added to the JavaScript is to make the hour of the day that has passed to turn gray, and the present hour to turn red. That will tell the user that this hour has passed and 
 their planner will not update it. Also, the user will be able to save certain tasks to their local memory so that if they decide to close the page, it will
 still remember what they have to do.
 

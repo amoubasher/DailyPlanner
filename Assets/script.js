@@ -28,7 +28,7 @@ function updateTime() {
     });
 }
 
-setInterval(timeUpdater, 30000);
+setInterval(timeUpdater, 100);
 
 function timeUpdater(){
     updateTime();

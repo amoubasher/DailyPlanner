@@ -1,7 +1,10 @@
+// var today = moment()
+// $("#date").text(today.format("MMMM Do, YYYY"))
+
 $(document).ready(function(){
     var today = moment();
 
-    $("currentDay").text(today.format("[Today's date:] ddd MMM do, YYYY [Time:] h:mm a"));
+    $("#currentDay").text(today.format("[Today's date:] ddd MMM do, YYYY [Time:] h:mm a"));
     $(".saveBtn").on('click', function() {
         var scheduledEvent = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
